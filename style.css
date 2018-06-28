@@ -1,0 +1,136 @@
+
+#linkedin, #github {
+    height: 50px;
+    width: 50px;
+    padding: none;
+    background-color: none;
+    float: right;
+    margin-top: -40px;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out; 
+}
+
+#github:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    /* animation: shake 0.5s; 
+    animation-iteration-count: infinite;  */
+}
+#linkedin:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    /* animation: shake 0.5s; 
+    animation-iteration-count: infinite;  */
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+body {
+    margin: 0px;
+}
+
+.nav-item { 
+    padding: 15px;
+    color: #777777; 
+}
+
+#nav {
+    padding: 0px;
+    background-color: black;
+    margin: 0px;
+}
+
+.JW {
+    font-size: 45px;
+    font-weight: bold;
+    margin: auto;
+    padding: 0px;
+    text-align: center;
+    color: white;
+    font-family: 'Shrikhand', cursive;
+}
+
+.container, .container2 {
+    background-color: white;
+    clear: both;
+    color: #777777;
+    padding-bottom: 20px;
+    width: 960px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+h2 {
+    color: black;
+    padding: 25px;
+    font-family: 'Shrikhand', cursive;
+}
+
+footer {
+    background-color: black;
+    padding: 7px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    color: white;
+}
+
+
+
+/* img {
+    width: 125px;
+    height: 125px;
+    border-radius: 3px;
+} */
+
+.projLink {
+    width: 225px;
+    height: 125px;
+    border-radius: 3px;
+    padding: 0px;
+    margin-left: 35px;
+
+}
+
+#bio {
+    background-color: white;
+}
+
+img {
+    width: 250px;
+    height: 230px;
+    float: left;
+    margin-right: 20px;
+}
+
+#picshake:hover {
+    animation: shake 0.5s; 
+    animation-iteration-count: infinite; 
+}
+
+#aboutMe {
+    color: black;
+    padding: 25px;
+    margin-left: -160px;
+}
+
+
+form {
+    padding-top: 45px;
+}
+
+
+
